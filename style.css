@@ -69,12 +69,26 @@ img{
 a:hover {
     color: red; 
 }
-.heart {
-    padding: 5px;
-    color:black;
-    top: 5px;
+.fffa{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    top: 10px;
     right: 0px;
     position:absolute;
+    
+}
+.heart {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    margin:auto;
+    text-align: center;
+    padding: 5px;
+    color:black;
+   
+    
     font-size: 40px;
     text-decoration: none; 
 }
