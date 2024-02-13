@@ -15,6 +15,7 @@ ul {
 	--color-header-bg: #255ee9;
 	--color-section-bg: #f6f6f6;
 	--color-contrast: #aebbe7;
+    --color-discount:#FF0000;
 }
 .debug{
     border:2px solid red;
@@ -24,10 +25,10 @@ ul {
 body{
     font-family: "Arial", sans-serif;
     background-color: var(--color-secondary);
-    color: var(--color-primary);
+    color: black;
 }
 .container{
-    background-color: #23272a;
+    background-color:var(--color-secondary);
     max-width:1200px;
     margin:20px auto;
     color:#f6f6f6;
@@ -48,26 +49,34 @@ img{
     width: 100%;
 }
 .badge{
-    background-color:red;
-    color:white;
+    background-color:var(--color-discount);
+    color: var(--color-secondary);
     padding: 5px;
-    position:absolute;
-    bottom: 20px;
-    left: 0px;
+    position: relative;
+    bottom: 55px;
+    font-size: 12px;
+    display: inline-block;
+}
+.sostenibilita{
+    background-color: green;
+    color: var(--color-secondary);
+    padding: 5px;
+    position: relative;
+    bottom: 55px;
+    display: inline-block;
     font-size: 12px;
 }
-.badge-red{
-    background-color:red;
-    color:black;
+a:hover {
+    color: red; 
 }
-.hearth{
+.heart {
     padding: 5px;
-    color: red;
+    color:black;
     top: 5px;
-    left: 0px;
+    right: 0px;
     position:absolute;
-    
-    width:100%;
+    font-size: 40px;
+    text-decoration: none; 
 }
 .secondary-image{
     display: none;
@@ -77,4 +86,18 @@ img{
 }
 .card:hover .secondary-image{
     display:block;
+}
+.prise{
+    color: red;
+    font-size: 12px;
+}
+.old-prise{
+    text-decoration: line-through;  color:grey;
+}
+h5{
+    color:gray;
+}
+P{
+    color: black;
+    font-weight: 600;
 }
