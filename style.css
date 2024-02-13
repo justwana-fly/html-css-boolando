@@ -137,8 +137,6 @@ a:hover {
     text-align: center;
     padding: 5px;
     color:black;
-   
-    
     font-size: 40px;
     text-decoration: none; 
 }
@@ -167,4 +165,30 @@ P{
 }
 .margin-top{
     margin-top: -20px;
+}
+.footer{
+    width: 100%;
+    background-color:#1A1A1A ;
+    padding-bottom: 20px;
+}
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h4{
+    color: white;
+    padding-top: 20px; 
+}
+.footer-href a{
+    color: white;
+    text-decoration: none; 
+    padding-right: 7px; 
+}
+h6{
+    
+    padding-top: 20px;
+    font-size: 13px;
+    color: white;
 }
