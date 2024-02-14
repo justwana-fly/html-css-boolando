@@ -25,10 +25,13 @@ ul {
 .fixed {
     overflow: hidden;
     position: fixed;
+    left: 0;
     top: 0;
     width: 100%;
     background-color:#FF6900;
+    z-index:3000;
 }
+
 .navbar{
     max-width: 1200px;
     margin:0 auto;
